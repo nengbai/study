@@ -13,6 +13,12 @@ pipeline {
       }
     }
 
+    stage('Deliver') {
+      steps {
+        sh 'pwd'
+      }
+    }
+
   }
   environment {
     CI = 'True'
