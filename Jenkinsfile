@@ -22,6 +22,7 @@ pipeline {
     stage('input') {
       steps {
         echo 'welcome to JD!'
+        echo 'Congratulation! You success to pass the test!'
       }
     }
 
