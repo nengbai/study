@@ -19,6 +19,12 @@ pipeline {
       }
     }
 
+    stage('input') {
+      steps {
+        echo 'welcome to JD!'
+      }
+    }
+
   }
   environment {
     CI = 'True'
